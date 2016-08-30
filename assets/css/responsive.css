@@ -1,0 +1,98 @@
+@media (max-device-width: 736px) {
+    .hidden-lt-xs {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    .image-wrapper img {
+        width: 100%;
+
+    }
+    .image-wrapper {
+        max-height: 280px;
+        overflow: hidden;
+    }
+}
+@media (max-device-width: 768px) {
+    .input-wrapper input {
+        width: 300px;
+    }
+    .pre-nav .nav-socials li > a {
+        font-size: 1.8em;
+        width: 42px;
+        height: 42px;
+    }
+
+    .pre-nav .nav-socials li > a > i {
+        line-height: 42px;
+    }
+    /*.no-padding-left {*/
+        /*padding-left: 15px;*/
+    /*}*/
+    .big-title {
+        margin-left: 0 !important;
+    }
+    .articles-list {
+        margin-left: -15px;
+    }
+    .no-padding-right-sm {
+        padding-right: 0;
+    }
+}
+@media (max-width: 567px) {
+    .articles-list.display-grid > .article-wrapper {
+        float: none;
+        width: 100%;
+    }
+}
+@media (min-device-width: 737px) {
+    .pre-nav .nav-socials {
+        margin-right: 20px;
+    }
+    .pre-nav .nav-socials li > a {
+        font-size: 1.2em;
+        width: 34px;
+        height: 34px;
+    }
+
+    .pre-nav .nav-socials li > a > i {
+        line-height: 34px;
+    }
+}
+@media (max-device-width: 480px) {
+    .carousel .item > .caption {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media (max-device-height: 736px) and (orientation : landscape) {
+    .carousel-wrapper .container {
+        background: #c1c1c1;
+        height: 300px;
+        position: relative;
+        z-index: 2;
+    }
+    .carousel-wrapper .carousel-actions .action > span {
+        display: inline-block;
+        line-height: 300px;
+        vertical-align: middle;
+        color: #ffffff;
+        font-size: 4em;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        position: relative;
+        z-index: 2;
+    }
+    .carousel .item {
+        position: relative;
+        border-bottom: 1px solid #eaeaea;
+        height: 300px;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+@media (min-width: 1024px) {
+    .no-padding-right-md {
+        padding-right: 0;
+    }
+}
